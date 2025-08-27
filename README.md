@@ -1,0 +1,1 @@
+explosion VFX thing : ) wow : ) i can't be bothered to actually put a license for this right now but the point is that you can go ahead and just use these explosion assets for free if you want lol. i don't know why you'd wanna, but you can
