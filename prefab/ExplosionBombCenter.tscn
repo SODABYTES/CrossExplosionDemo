@@ -187,7 +187,7 @@ draw_pass_1 = SubResource("QuadMesh_6a62d")
 
 [node name="Flash" type="GPUParticles3D" parent="."]
 amount = 2
-lifetime = 0.2
+lifetime = 0.13
 fixed_fps = 60
 process_material = SubResource("ParticleProcessMaterial_1og2v")
 draw_pass_1 = SubResource("QuadMesh_wf7n4")
@@ -216,7 +216,7 @@ draw_pass_1 = SubResource("QuadMesh_ec5gj")
 
 [node name="FireClouds" type="GPUParticles3D" parent="."]
 amount = 32
-lifetime = 0.2
+lifetime = 0.13
 fixed_fps = 60
 process_material = SubResource("ParticleProcessMaterial_ec5gj")
 draw_pass_1 = SubResource("QuadMesh_j26gl")
