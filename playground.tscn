@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://7j6jlthntjdr"]
+
+[ext_resource type="PackedScene" uid="uid://bml6kghtyuswk" path="res://prefab/ExplosionBombCenter.tscn" id="1_rupst"]
+[ext_resource type="Script" uid="uid://c2tkowqganttn" path="res://bombSpawner.gd" id="2_wt17y"]
+
+[sub_resource type="Environment" id="Environment_wt17y"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ExplosionBombCenter" parent="." instance=ExtResource("1_rupst")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.5, -0.5)
+
+[node name="ExplosionBombCenter2" parent="." instance=ExtResource("1_rupst")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.5, -0.5)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3, 0)
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("2_wt17y")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_wt17y")
